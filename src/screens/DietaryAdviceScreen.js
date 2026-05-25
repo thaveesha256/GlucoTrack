@@ -3,7 +3,7 @@ import { ScrollView, View, Text, StyleSheet } from 'react-native';
 import { useTheme } from '../context/ThemeContext';
 import { useLanguage } from '../context/LanguageContext';
 
-// plate method first — sets context before the food lists, better reading flow
+
 const CARDS = [
   { titleKey: 'daTitle1', bodyKey: 'daBody1' },
   { titleKey: 'daTitle2', bodyKey: 'daBody2' },

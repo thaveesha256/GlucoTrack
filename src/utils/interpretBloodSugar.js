@@ -1,8 +1,3 @@
-// Returns: { categoryKey, category, severity, range, advicePoints, relatedScreens }
-// categoryKey maps to a translation key for localised display
-// severity is one of: 'critical', 'warning', 'success', 'danger'
-// advicePoints: string[] rendered as bullet points
-// relatedScreens: { route, labelKey }[] rendered as navigation links
 
 export function interpretBloodSugar(value, type) {
   const v = parseFloat(value);
